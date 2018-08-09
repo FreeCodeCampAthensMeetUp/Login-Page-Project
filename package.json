@@ -1,0 +1,16 @@
+{
+  "name": "sass-login-version",
+  "version": "1.0.0",
+  "description": "Simple Login Project for FreeCodeCampAthens MeetUp",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "FreeCodeCamp Athens MeetUp",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1"
+  }
+}
