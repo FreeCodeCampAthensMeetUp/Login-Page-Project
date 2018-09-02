@@ -6,49 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Tammudu|Hammersmith+One" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
     <title>Login Page</title>
   </head>
   <body>
     <div id="mobile">
-    <div class="left">
-    <header>
-      <div id="logo">
-        <img src="./assets/Logo.svg"/>
-        <h2>Welcome back</h2>
-      </div>
-    </header>
-    <main>
-      <div id="login">
-        <div class="button">
-          <div><img src="./assets/google-icon.svg"/></div>
-          <div><p>Sign in with Google</p></div>
-        </div>
-        <form id="login-form">
-          <h3><span>Or login with e-mail</span></h3>
-          <div class="data">
-            <label for="email">E-mail address</label>
-            <input type="email" id="email" placeholder="Your e-mail here" required/>
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Your password here" required/>
+      <div class="left">
+        <header>
+          <div id="logo">
+            <img src="./assets/Logo.svg"/>
+            <h2>Welcome back</h2>
           </div>
-          <div class="options">
-            <div>
-              <input type="checkbox" id="check"/>
-              <label for="check">Keep me logged in</label>
+        </header>
+        <main>
+          <div id="login">
+            <div class="button">
+              <div><img src="./assets/google-icon.svg"/></div>
+              <div><p>Sign in with Google</p></div>
             </div>
-            <a href="#">Forgot your Password?</a>
+            <form id="login-form">
+              <h3><span>Or login with e-mail</span></h3>
+              <div class="data">
+                <label for="email">E-mail address</label>
+                <input type="email" id="email" placeholder="Your e-mail here" required/>
+                <label for="password">Password</label>
+                <input type="password" id="password" minlength="4" placeholder="Your password here" required/>
+              </div>
+              <div class="options">
+                <div>
+                  <input type="checkbox" id="check"/>
+                  <label for="check">Keep me logged in</label>
+                </div>
+                <a href="#">Forgot your Password?</a>
+              </div>
+              <button type="submit" id="submit">Log in</button>
+            </form>
           </div>
-          <button type="submit" id="submit">Log in</button>
-        </form>
+        </main>
+        <hr />
+        <footer>
+          <span>Don't have an account? <a href="#">Sign up</a></span>
+        </footer>
       </div>
-    </main>
-    <hr />
-    <footer>
-      <span>Don't have an account? <a href="#">Sign up</a></span>
-    </footer>
-  </div>
-  <div class="right"><img src="./assets/Undraw-Image.svg"/></div>
-  </div>
+      <div class="right"><img src="./assets/Undraw-Image.svg"/></div>
+    </div>
+
+    <script src="script.js"></script>
   </body>
-</html>
+  </html>
