@@ -1,1 +1,123 @@
-/* Please do not Touch this file. It will be Overwritten by Gulp */
+body {
+  padding: 10px;
+  font-family: sans-serif; }
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-content: center; }
+  #logo img {
+    margin: 15px auto; }
+  #logo h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #450066; }
+
+#login {
+  display: flex;
+  flex-direction: column; }
+  #login .button {
+    margin: 3em 0 1.5em;
+    width: 100%;
+    align-self: center;
+    padding: 5px;
+    border-radius: 3%;
+    border: none;
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    cursor: pointer;
+    outline: none;
+    display: grid;
+    grid-template-columns: 10% 90%;
+    grid-template-rows: 1fr; }
+    #login .button div {
+      display: flex;
+      justify-content: center; }
+  #login .button:active {
+    box-shadow: none;
+    transform: translate(0px, 10%); }
+
+form h3 {
+  text-transform: uppercase;
+  color: #6d5d74;
+  font-size: smaller;
+  margin: 10px 0 20px;
+  width: 100%;
+  border-bottom: 1px solid #6d5d74;
+  line-height: 0.2em; }
+  form h3 span {
+    background: #fff;
+    padding: 0 10px; }
+
+form button {
+  background-color: #ad00ff;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 100%;
+  margin: 30px auto 15px;
+  border-radius: 3%;
+  border: none;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.1); }
+
+form button:active {
+  box-shadow: none;
+  transform: translate(0px, 10%); }
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  font-size: smaller; }
+  .data input {
+    display: block;
+    width: 100%;
+    padding: 7px 3px;
+    margin: 7px auto 17px;
+    font-size: smaller;
+    outline: none; }
+  .data label {
+    text-transform: uppercase;
+    text-align: left; }
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  text-transform: none;
+  font-size: smaller; }
+
+a {
+  text-decoration: none;
+  color: #ad00ff; }
+
+a:hover {
+  font-weight: bold;
+  color: #8a00cc; }
+
+footer, main {
+  text-align: center;
+  margin: 15px auto; }
+
+footer {
+  font-size: smaller; }
+
+#mobile {
+  display: grid;
+  grid-template-columns: 100% 0;
+  grid-template-rows: 1fr; }
+  @media screen and (min-width: 700px) {
+    #mobile {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+      justify-content: center; } }
+
+.right, .left {
+  margin: 15px auto; }
+
+.right {
+  display: flex;
+  justify-content: center; }
+  .right img {
+    width: 95%; }
