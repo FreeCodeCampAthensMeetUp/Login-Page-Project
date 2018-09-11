@@ -1,6 +1,6 @@
-# Project Introcution
+# Project Introduction
 
-Our Goal is to create a Simple Login with basic Functionality. The Web Page should be Repsonsive for Mobile Viewports as well. All necessary assets and basic setup has been provided to you as well as the final result that you should create in the images below:
+Our Goal is to create a Simple Login with basic Functionality. The Web Page should be Responsive for Mobile Viewports as well. All necessary assets and basic setup has been provided to you as well as the final result that you should create in the images below:
 
 WEB VIEW                               |  Mobile View
 :-------------------------------------:|:-------------------------------------:
@@ -14,11 +14,11 @@ For the Functionality we encourage you to use Vanilla JavaScript and avoid the u
 
 Now you are ready to dive in to the Project.
 
-### Think of it as a contest. 
+### Think of it as a contest.
 
 Meaning, while there are no prizes, you will be able to see what your fellow Campers did, and improve and learn from them. Below you will find:
 
-* Installation Instructions for the Development Enviroment we setup for you.
+* Installation Instructions for the Development Environment we setup for you.
 * Instruction about Git Branches.
 
 # Installation | Getting Started
@@ -33,7 +33,7 @@ git clone "filename"
 
 In order to run the file you will need to install Node.js in your Machine. You can find it [here](https://nodejs.org/en/). After that you will need to run a few commands.
 
-In your prefered console or terminal type the following:
+In your preferred console or terminal type the following:
 
 ```
 npm install -g gulp
@@ -46,7 +46,7 @@ In your console or terminal navigate to the "filename" folder in your PC and the
 npm install
 ```
 
-This will install all dependacies needed automatically for executing the project. Those dependacies are:
+This will install all dependancies needed automatically for executing the project. Those dependancies are:
 
 * Gulp
 * Gulp-Sass
@@ -54,7 +54,7 @@ This will install all dependacies needed automatically for executing the project
 
 ## Run
 
-FInally in your console or terminal type the command:
+Finally in your console or terminal type the command:
 
 ```
 npm start
@@ -71,7 +71,7 @@ First and Foremost make sure you have git installed. You can find it [here](http
 git checkout -b YourGitHubAccountName
 ```
 
-Then you start working on the Project. Make all the neccessary changes you want to the files. When you finish your changes run:
+Then you start working on the Project. Make all the necessary changes you want to the files. When you finish your changes run:
 
 ```
 git status

@@ -2,7 +2,9 @@
 $purple: rgb(173, 0, 255);
 $purple-light: rgb(109, 93, 116);
 $purple-dark: darken(rgb(173, 0, 255), 10%);
-$purple-darker: darken(rgb(173, 0, 255), 30%);
+$purple-darker: darken(rgb(173, 0, 255), 70%);
+$pink: rgba(203, 26, 209, 1);
+$pink-light: rgba(247, 230, 255, 1);
 $margin: 15px auto;
 $break-large: 700px;
 
@@ -18,11 +20,11 @@ body {
   img {
   margin: $margin;
   }
-  h2 {
-    text-align: center;
-    text-transform: uppercase;
-    color: $purple-darker;
-  }
+}
+header h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: $purple-darker;
 }
 #login {
   display: flex;
@@ -88,6 +90,9 @@ form {
     box-shadow: none;
     transform: translate(0px, 10%);
   }
+  .messages {
+    margin-bottom: 15px;
+  }
 }
 .data {
   display: flex;
@@ -151,4 +156,16 @@ footer {
   img {
     width: 95%;
   }
+}
+.messages {
+  color: $pink;
+  line-height: 1.1;
+  padding: 3px;
+  display: none;
+  text-shadow: 0px 0px 15px $pink;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 17px;
+}
+.messageBox {
+  background-color: $pink-light;
 }
